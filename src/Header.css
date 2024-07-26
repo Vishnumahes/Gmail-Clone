@@ -1,3 +1,95 @@
-.header__left >img{
-
+/* .header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom:1px solid whitesmoke;
 }
+
+.header__left{
+    display: flex;
+    align-items:center;
+}
+
+.header__left >img{
+object-fit: contain;
+height:80px;
+margin-left:5px;
+}
+
+.header__middle{
+    display:flex;
+    flex:0.7;
+    align-items:center;
+    background-color:whitesmoke;
+    padding:10px;
+    border-radius:5px;
+}
+
+.header__middle > .MuiSvgIcon-root{
+    color:grey;
+}
+
+.header__middle > input {
+    border:none;
+    width:100%;
+    padding:10px;
+    outline:none;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.header__right{
+    display: flex;
+    padding-right:20px;
+} */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__left > img {
+    object-fit: contain;
+    height: 40px; /* Adjust height to match other elements */
+    margin-left: 5px;
+}
+
+.header__middle {
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: 40px; /* Ensure height matches icon size */
+}
+
+.header__middle > .MuiSvgIcon-root {
+    color: grey;
+    margin-right: 10px; /* Add some spacing between the icon and input */
+    font-size: 24px; /* Adjust icon size */
+    align-self: center; /* Center the icon vertically */
+}
+
+.header__middle > input {
+    border: none;
+    width: 100%;
+    padding: 5px 0; /* Adjust padding to ensure vertical alignment */
+    outline: none;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
