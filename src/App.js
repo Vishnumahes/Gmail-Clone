@@ -4,6 +4,7 @@ import Header from "./Header";
 import Sidebar from './Sidebar';
 import Mail from './Mail';
 import EmailList from './EmailList';
+import SendMail from './SendMail';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/mail/:id" element={<Mail />} /> {/* Dynamic route for Mail */}
           </Routes>
         </div>
+        <SendMail/>
       </div>
     </Router>
   );
